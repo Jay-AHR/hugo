@@ -1,4 +1,4 @@
-baseURL = "http://nonlineartension.io/"
+baseURL = "http://nonlineartension.netlify.com/"
 languageCode = "en-us"
 author = "Jason Rotella"
 title = "NonLinearTension"
