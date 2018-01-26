@@ -17,8 +17,8 @@ paginate = 10
   # Shown in the home page
   subtitle = "It's logic all the way down ... or is it?"
   brand = "Blackburn"
-  googleAnalytics = "Your Google Analytics tracking ID"
-  disqus = "Your Disqus shortname"
+  googleAnalytics = "UA-113141505-1"
+  disqus = "gdgcr"
   # CSS name for highlight.js
   highlightjs = "androidstudio"
   highlightjs_extra_languages = ["yaml"]
@@ -37,27 +37,15 @@ paginate = 10
   [[menu.main]]
     name = "Home"
     pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
+    weight =1
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
     name = "About"
     pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 3
+    weight = 2
     identifier = "about"
-    url = "/about/"
-  [[menu.main]]
-    name = "Contact"
-    pre = "<i class='fa fa-phone fa-fw'></i>"
-    weight = 4
-    url = "/contact/"
-
+    url = "/about/about"
 [social]
   # Link your social networking accounts to the side menu
   # by entering your username or ID.
@@ -67,10 +55,3 @@ paginate = 10
 
   # SNS career oriented
   linkedin = "jasonrotella"
-
-  # Techie
-  github = "yoshiharuyamashita"
-  bitbucket = "*"
-
-  # Other
-  keybase = "*"
